@@ -1,0 +1,29 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box
+}
+
+/* variables */
+:root {
+  --main-color--: #FFD700;
+  --main-text-color--: #FFF;
+  --border-color--: #999;
+  --bio-bg-color--: #1e2a3a;
+  --bio-border-color--: #293544;
+  --about-bg-color--: #111821;
+}
+
+/* general */
+.highlight {
+    color: var(--main-color--);
+}
+
+/* containers */
+#container {
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-color--);
+}
